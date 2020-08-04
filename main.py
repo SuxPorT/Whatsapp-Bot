@@ -12,7 +12,7 @@ def main():
         if not to_group:
             loop = False
         else:
-            groups.append(toGroup)
+            groups.append(to_group)
 
     bot = WhatsappBot(message, groups)
     bot.send_messages()
